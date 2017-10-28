@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manjubs.vibgyor.MainActivity"
+    android:orientation="vertical">
+
+
+
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="@string/btnRed"
+        android:background="@color/colorRed"/>
+    <Button
+        android:id="@+id/btnOrange"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="@string/btnOrgange"
+        android:background="@color/colorOrange"/>
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="@string/btnYellow"
+        android:background="@color/colorYellow"/>
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="@string/btnGreen"
+        android:background="@color/colorGreen"/>
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="@string/btnBlue"
+        android:background="@color/colorBlue"/>
+    <Button
+        android:id="@+id/btnIndigo"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="@string/btnIndigo"
+        android:background="@color/colorIndigo"/>
+    <Button
+        android:id="@+id/btnViolet"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="@string/btnViolet"
+        android:background="@color/colorViolet"/>
+
+
+</LinearLayout>
